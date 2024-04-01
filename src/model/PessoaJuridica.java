@@ -6,6 +6,10 @@ public class PessoaJuridica extends Pessoa implements Serializable {
 
     private String cnpj;
 
+    public PessoaJuridica() {
+        super();
+    }
+
     public PessoaJuridica(int id, String nome, String cnpj) {
         super(id, nome);
         this.cnpj = cnpj;

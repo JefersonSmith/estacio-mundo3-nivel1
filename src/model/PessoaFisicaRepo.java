@@ -57,4 +57,9 @@ public class PessoaFisicaRepo {
             pessoasFisicas = (ArrayList<PessoaFisica>) ois.readObject();
         }
     }
+
+    public void setLista(List<PessoaFisica> listaFisica) {
+        this.pessoasFisicas = listaFisica;
+    }
+
 }

@@ -61,4 +61,9 @@ public class PessoaJuridicaRepo {
             pessoasJuridicas = (ArrayList<PessoaJuridica>) ois.readObject();
         }
     }
+
+    public void setLista(List<PessoaJuridica> listaJuridica) {
+        this.pessoasJuridicas = listaJuridica;
+    }
+
 }

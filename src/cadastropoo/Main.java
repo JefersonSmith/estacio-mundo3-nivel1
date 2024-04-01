@@ -43,7 +43,7 @@ public class Main {
             System.err.println("Erro: " + e);
         }
 
-        System.out.println("Dados de Pessoa Fisica Recuperados.");
+        System.out.println("Dados de Pessoas Fisicas Recuperados.");
         for (PessoaFisica pf : repo2.obterTodos()) {
             pf.exibir();
         }
