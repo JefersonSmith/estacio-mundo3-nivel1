@@ -10,7 +10,7 @@ Curso: Desenvolvimento Full Stack.
  
 Disciplina: Nível 1: Iniciando o Caminho Pelo Java.
  
-Número da Turma: RPG0014.
+Número da Turma: 2023.1
  
 Semestre Letivo: 3.
 
